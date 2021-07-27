@@ -151,7 +151,11 @@ if (!mobileCheck()) {
     ScrollReveal().reveal("#project-heading", { delay: 250 });
     ScrollReveal().reveal("#project-info", { delay: 250 });
 }
-ScrollReveal().reveal("#contact-form", { delay: 250 });
+ScrollReveal().reveal("#contact-form", { delay: 120});
+ScrollReveal().reveal('.project-card', { interval: 180, reset: true });
+ScrollReveal().reveal('.cube-container', { delay: 60, reset: true });
+console.log("5669657720746865207365637265742070617374653a2068747470733a2f2f706173746562696e2e636f6d2f6152317033367a330a49207468696e6b20746865207365636f6e64206c696e6520697320776f727468206c6f6f6b696e672061742e");
+console.log("01100001 01000101 01100100 01000101 01100110 01110100 00110101 00110110");
 // -----ANIMATION END-----
 $(document).ready(function () {
     $("#scroll-down").click(function () {

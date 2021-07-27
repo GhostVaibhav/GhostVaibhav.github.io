@@ -208,7 +208,7 @@ section:nth-of-type(even) {
 #project-heading {
     font-weight: 700;
     font-size: 4vmax;
-    padding-right: 12vw;
+    /* padding-right: 12vw; */
     padding-bottom: 5vh;
 }
 #project-info {
@@ -677,4 +677,26 @@ html.sr .load-hidden {
 }
 #input-email, #input-message {
     font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
+}
+#secret {
+    padding: 0;
+    margin: 0;
+    font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
+    color: white;
+    font-size: 0.8vmax;
+    position: absolute;
+    bottom: 0;
+    right: 1vw;
+}
+#secret-link {
+    text-decoration: none;
+    color: white;
+}
+#secret-link:hover {
+    text-decoration: underline;
+}
+.secret-page {
+    font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
+    display: flex;
+    justify-content: center;
 }
