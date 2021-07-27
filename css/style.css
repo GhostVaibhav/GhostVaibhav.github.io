@@ -698,5 +698,7 @@ html.sr .load-hidden {
 .secret-page {
     font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
