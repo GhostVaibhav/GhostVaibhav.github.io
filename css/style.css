@@ -676,12 +676,12 @@ html.sr .load-hidden {
     scroll-snap-align: start;
 }
 #input-email, #input-message {
-    font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
+    font-family: '.\kelvetica-nobis.regular.otf',sans-serif';
 }
 #secret {
     padding: 0;
     margin: 0;
-    font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
+    font-family: '.\kelvetica-nobis.regular.otf', sans-serif;
     color: white;
     font-size: 0.8vmax;
     position: absolute;
@@ -696,9 +696,48 @@ html.sr .load-hidden {
     text-decoration: underline;
 }
 .secret-page {
-    font-family: '.\kelvetica-nobis.regular.otf',sans-serif;
+    color: white;
+    font-family: 'consolas', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.secret-input {
+    font-family: 'consolas', sans-serif;
+    display: flex;
+    flex-grow: 0;
+}
+#secret-text {
+    font-family: 'consolas', sans-serif;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+#submit-button {
+    font-family: 'consolas', sans-serif;
+}
+#my-canvas {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.success-container {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.success-dialog {
+    color: white;
+    font-family: '.\kelvetica-nobis.regular.otf', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
 }
